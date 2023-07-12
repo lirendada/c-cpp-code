@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\C++code\bit\动态内存管理\test.cpp(28,7): error C2664: “A::A(const A &)”: 无法将参数 1 从“int”转换为“const A &”
+D:\C++code\bit\动态内存管理\test.cpp(28,7): message : 原因如下: 无法从“int”转换为“const A”
+D:\C++code\bit\动态内存管理\test.cpp(28,7): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+D:\C++code\bit\动态内存管理\test.cpp(24,1): message : 参见“A::A”的声明

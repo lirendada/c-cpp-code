@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f970625e-9637-47a5-a95d-82a3c0b07fe3": {
+      "ProjectGuid": "f970625e-9637-47a5-a95d-82a3c0b07fe3",
+      "DisplayName": "扫雷C语言",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

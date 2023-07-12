@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e00e2b4a-1b37-4137-9476-750335ebfac2": {
+      "ProjectGuid": "e00e2b4a-1b37-4137-9476-750335ebfac2",
+      "DisplayName": "动态内存管理",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
