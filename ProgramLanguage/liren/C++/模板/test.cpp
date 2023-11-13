@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-//#define X 1000
+// #define X 1000
 
 //template<class T, size_t X>
 //class Srray
@@ -144,3 +144,24 @@ using namespace std;
 //    return 0;
 //}
 
+template <class T>
+int print(T t)
+{
+	cout << typeid(t).name() << " : " << t << endl;
+	return 0;
+}
+
+template <class... Args>
+void func(Args... arg)
+{
+	int arr[] = { print(arg)... };
+	cout << endl;
+}
+
+int main()
+{
+	func(1);
+	func(1, "lirendada");
+	func(1, string("lirendada"), 3.15656);
+	return 0;
+}

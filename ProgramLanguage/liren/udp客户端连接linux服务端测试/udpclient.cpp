@@ -7,7 +7,7 @@
 using namespace std;
 
 uint16_t server_port = 8080;
-string server_ip = "119.29.17.38";
+string server_ip = "81.71.97.127";
 
 int main() 
 {
