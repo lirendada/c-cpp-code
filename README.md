@@ -1,37 +1,21 @@
-# c-code
+# c-cpp-code
 
-#### 介绍
-存放c/c++学习代码，不限于数据结构、语言代码等
+C 与 C++ 的学习代码合集，涵盖 C 语言系统课程、C++ 入门到类与对象、以及早期的数据结构与算法练习。大部分是 Visual Studio 工程，少量为单文件源码。
 
-#### 软件架构
-软件架构说明
+## 目录索引
 
+| 目录 | 内容 | 工具 |
+|---|---|---|
+| `C语言利刃2022Code/` | C 语言课程代码：分支与循环、函数、数组、操作符、指针及指针进阶、字符串函数练习、自定义类型、动态内存开辟、文件操作、程序环境与预处理、库函数、课后练习与大学作业 | Visual Studio |
+| `C++code/` | C++ 入门：处理数据、复合类型、数组指针字符串、类与对象 | Visual Studio |
+| `C++code/bit/` | C++ 进阶练习：动态内存管理、类与对象、日期类实现；另含 C 语言版扫雷与顺序表 | Visual Studio |
+| `ProgramLanguage/liren/` | 早期合集：C、C++、STL 源码剖析笔记代码、高并发内存池、算法、数据结构作业、UDP 客户端连 Linux 服务端测试、考试练习 | 混合 |
+| `ProgramLanguage/几种常见排序/` | 常见排序算法实现 | C / C++ |
+| `ProgramLanguage/Project1/` | 排序题目（含输入输出样例 `sort.in` / `sort.out`） | C++ |
+| `ProgramLanguage/劳动课作业/` | 课程作业 | 混合 |
 
-#### 安装教程
+## 约定
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- Visual Studio 工程用对应目录下的 `.sln` 打开；仓库只保留源码与工程文件，`.vs/`、`Debug/`、`x64/` 等编译缓存不提交。
+- 部分早期源码为 GBK 编码，在其他编辑器中打开需手动选择编码，避免中文注释乱码。
+- 高并发内存池的完整版本已独立为单独仓库，这里保留的是练习期的版本。
